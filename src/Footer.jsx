@@ -8,7 +8,7 @@ export default function Footer() {
             Suggestions welcome!
         </p>
         <p>See this site's source code 
-            <a href="https://github.com/AndyTBurke/Personal-Dev-Portfolio" 
+            <a href="https://github.com/AndyTBurke/AndyBurkeDevPortfolio" 
             target="_blank">here</a>.
         </p>
     </div>
