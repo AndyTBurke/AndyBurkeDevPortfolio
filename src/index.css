@@ -43,7 +43,7 @@ body {
     box-shadow: inset 1px 1px 10px rgb(0, 0, 0);
 }
 
-.about-page {
+.about-page, .contact-page {
     width: 100%;
     height: 78vh;
     background-color: rgb(203, 203, 223);
@@ -112,4 +112,35 @@ body {
 .footer > p > a:hover {
     color: rgb(238, 135, 0);
     margin-left: 3px;
+}
+
+.contact-page > div {
+    display: flex;
+    justify-content: center;
+    color: #06536b;
+}
+
+.contact-page > div:first-child {
+    padding-top: 20vh;
+    color: #ffa600;
+    text-shadow: 1px 1px #000c0f;
+}
+
+.contact-icon {
+    height: 40px;
+    vertical-align:text-bottom;
+    margin-right: 10px;
+}
+
+.see-more-icon {
+    height: 20px;
+    margin-right: 2vw;
+    padding: 1vh;
+}
+
+.see-more-icon:hover {
+    height: 20px;
+    margin-right: 2vw;
+    background-color: #FFAE42;
+    cursor: pointer;
 }
