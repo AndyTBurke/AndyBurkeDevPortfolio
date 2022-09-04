@@ -12,7 +12,6 @@ export default function App() {
   const [page, setPage] = useState("about")
 
   function changePage(pageName) {
-    console.log("test")
     setPage(pageName)
   }
 

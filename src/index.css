@@ -152,15 +152,35 @@ body {
 }
 
 .projects-container {
-    border: 1px solid black;
+
     height: 50vh;
     width: 80vw;
 }
 
 .project {
-    border: 1px solid black;
     height: 45vh;
     width: 23vw;
     margin-right: 5vh;
     text-align: center;
+}
+
+.proj-img {
+    margin-top: -1.5vh;
+    height: 200px;
+    border: 1px inset rgb(92, 43, 226);
+}
+
+.proj-img:hover {
+    cursor: pointer;
+    border-color: #ff9933;
+}
+
+.proj-description {
+}
+
+@media only screen and (max-width: 930px) {
+    .header > nav > button {
+        padding: 3px;
+        margin-top: 4px;
+    }
 }
