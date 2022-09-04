@@ -26,18 +26,21 @@ body {
     border-radius: 10px;
     font-family: monospace;
     font-size:medium;
-    background-color: #7a89ca ;
+    background-color: #7a89ca8e ;
     overflow: hidden;
     font-family: 'Inter', sans-serif;
+    color: #ffa631ea;
+    box-shadow: 1px 1px 10px 
 }
 
 .header > nav > button:hover {
     cursor: pointer;
     background-color: #FFAE42;
+    color: #100625;
 }
 
 .header > nav > button:active {
-    box-shadow: inset 1px 1px 10px rgb(39, 18, 0);
+    box-shadow: inset 1px 1px 10px rgb(0, 0, 0);
 }
 
 .about-page {
@@ -103,5 +106,10 @@ body {
 
 .footer > p > a {
     color: white;
+    margin-left: 3px;
+}
+
+.footer > p > a:hover {
+    color: rgb(238, 135, 0);
     margin-left: 3px;
 }

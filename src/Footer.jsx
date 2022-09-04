@@ -4,7 +4,7 @@ export default function Footer() {
 
     return(
     <div className="footer">
-        <p>This portfolio page is forevera work in progres.
+        <p>This portfolio page is forever a work in progres.
             Suggestions welcome!
         </p>
         <p>See this site's source code 

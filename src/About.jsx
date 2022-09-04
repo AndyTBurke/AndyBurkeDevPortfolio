@@ -11,6 +11,7 @@ export default function About() {
         <div className="about-skills">
             <img className="logos" title="HTML + CSS" src="src\assets\images\HTMLCSSLogos.png" />
             <img className="logos" title="JavaScript" src="src\assets\images\JSLogo.png" />
+            <img className="logos" title="Python" src="src\assets\images\PythonLogo.png" />
             <img className="logos" title="React" src="src\assets\images\Reactlogo.png" />
         </div>
         <div className="about-my-skills">{`Find more info =>`}</div>
