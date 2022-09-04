@@ -6,7 +6,7 @@ export default function Header(props) {
             <h1>{`<Andrew Burke />`}</h1>
             <nav>
                 <button onClick={() => props.changePage("about")} >{`<About />`}</button>
-                <button>{`<Projects />`}</button>
+                <button onClick={() => props.changePage("projects")}>{`<Projects />`}</button>
                 <button onClick={() => props.changePage("contact")}>{`<Contact />`}</button>
             </nav>
         </div>
