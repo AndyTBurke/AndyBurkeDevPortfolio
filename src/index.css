@@ -5,6 +5,7 @@ body {
 
 .header {
     height: 17vh;
+    min-height: 80px;
     width: 100%;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(50,74,178,1) 82%, rgba(0,86,255,1) 100%);
     display: flex;
