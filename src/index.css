@@ -176,13 +176,23 @@ body {
 
 .proj-img {
     margin-top: -1.5vh;
-    width: 99%;
+    height: 50%;
     border: 1px inset rgb(92, 43, 226);
 }
 
 .proj-img:hover {
     cursor: pointer;
     border-color: #ff9933;
+}
+
+.project > p > a {
+    color:#100625;
+    text-decoration: none;
+}
+
+.project > p > a:hover {
+    color:#2061da;
+    background-color: #ffcc99;
 }
 
 @media only screen and (max-width: 930px) {
