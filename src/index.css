@@ -8,32 +8,35 @@ body {
     width: 100%;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(50,74,178,1) 82%, rgba(0,86,255,1) 100%);
     display: flex;
+    flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: right;
 }
 
 .header > h1 {
-    padding-right: 20%;
-    padding-left: 5%;
     font-size: xx-large;
     font-family: 'Inter', sans-serif;
     color: #FFAE42;
     text-shadow: 5px 2px #000000;
+    margin-right: auto;
+    margin-left: 2vw;
 }
 
-.header > nav > button {
-    padding: 10px;
-    margin: 0 13px 0 13px;
+.header > button {
     border-radius: 10px;
+    padding: 10px;
     font-family: monospace;
-    font-size:medium;
+    font-size: medium;
     background-color: #7a89ca8e ;
     overflow: hidden;
     font-family: 'Inter', sans-serif;
     color: #ffa631ea;
-    box-shadow: 1px 1px 10px 
+    box-shadow: 1px 1px 10px;
+    margin-right: 2vw;
 }
 
-.header > nav > button:hover {
+.header > button:hover {
     cursor: pointer;
     background-color: #FFAE42;
     color: #100625;
@@ -195,12 +198,39 @@ body {
     background-color: #ffcc99;
 }
 
-@media only screen and (max-width: 930px) {
-    .header > nav > button {
+@media only screen and (max-width: 700px) {
+
+    .header > button {
         padding: 3px;
-        margin-top: 4px;
+        font-size: small;
+
     }
 
+    .header > h1 {
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header > h1 {
+        margin: 0;
+    }
+
+    .header > button {
+        padding: 1px;
+        font-size: small;
+        margin-top: 2px;
+    }
+
+}
+
+@media only screen and (max-width: 930px) {
     .projects-container {
         width: 90vw;
     }
