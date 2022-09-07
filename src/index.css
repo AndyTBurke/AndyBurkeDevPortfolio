@@ -218,16 +218,17 @@ body {
     .header {
         flex-direction: column;
         justify-content: center;
+        height: 18vh
     }
 
     .header > h1 {
-        margin: 0;
+        margin: -1%
     }
 
     .header > button {
         padding: 1px;
         font-size: small;
-        margin-top: 2px;
+        margin-top: 9px;
     }
 
 }

@@ -1,4 +1,5 @@
 import React from "react"
+import htmlCssLogo from "./assets/images/HTMLCSSLogos.png"
 
 export default function About() {
     return (
@@ -9,7 +10,7 @@ export default function About() {
         </div>
         <div className="about-my-skills">{`My skills =>`}</div>
         <div className="about-skills">
-            <img className="logos" title="HTML + CSS" src="src\assets\images\HTMLCSSLogos.png" />
+            <img className="logos" title="HTML + CSS" src={htmlCssLogo} />
             <img className="logos" title="JavaScript" src="src\assets\images\JSLogo.png" />
             <img className="logos" title="Python" src="src\assets\images\PythonLogo.png" />
             <img className="logos" title="React" src="src\assets\images\Reactlogo.png" />
