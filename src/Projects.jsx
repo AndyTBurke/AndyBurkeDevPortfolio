@@ -6,7 +6,9 @@ export default function Projects() {
             <div className="projects-container">
                 <div className="project">
                     <h2>CompSci Quiz</h2>
+                    <a href="https://aburke-compsci-quiz.netlify.app" target="_blank">
                     <img className="proj-img" src="src\assets\images\CompSci-project.JPG"></img>
+                    </a>
                     <p className="proj-description">Using the Open Trivia API, I've created a fun little quiz app. Test your CompSci knowledge!</p>
                     <p><a href="https://aburke-compsci-quiz.netlify.app"
                         target="_blank">LIVE PROJECT</a> || <a href="https://github.com/AndyTBurke/Comp-Sci-Quiz"
@@ -14,15 +16,19 @@ export default function Projects() {
                 </div>
                 <div className="project">
                     <h2>Pomodoro Timer</h2>
-                    <img className="proj-img" src="src\assets\images\CompSci-project.JPG"></img>
-                    <p className="proj-description">Using the Open Trivia API, I've created a fun little quiz app. Test your CompSci knowledge!</p>
-                    <p><a href=""
-                        target="_blank">LIVE PROJECT</a> || <a href=""
+                    <a href="https://aburke-pomodoro.netlify.app/" target="_blank">
+                    <img className="proj-img" src="src\assets\images\Pomodoro-img.JPG"></img>
+                    </a>
+                    <p className="proj-description">A productivity device. Set a session time for studying or working, then set a break time. Repeat.</p>
+                    <p><a href="https://aburke-pomodoro.netlify.app/"
+                        target="_blank">LIVE PROJECT</a> || <a href="https://github.com/AndyTBurke/Pomodoro"
                         target="_blank">VIEW CODE</a></p>
                 </div>
-                <div className="project">
+                <div className="project" target="_blank">
                     <h2>Stock 'Quote' Genrator</h2>
+                    <a href="https://aburke-stock-quotations.netlify.app/" target="_blank">
                     <img className="proj-img" src="src\assets\images\QuoteGen-project.JPG"></img>
+                    </a>
                     <p className="proj-description">A simple implimentation of React. Quotes about investing are so good, I wanted to collect them.</p>
                     <p><a href="https://aburke-stock-quotations.netlify.app/"
                         target="_blank">LIVE PROJECT</a> || <a href="https://github.com/AndyTBurke/Stock-Quotation-Generator"

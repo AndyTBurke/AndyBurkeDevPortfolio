@@ -190,8 +190,9 @@ body {
 }
 
 .project > p > a {
-    color:#100625;
+    color:#29105f;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 .project > p > a:hover {
