@@ -2,16 +2,20 @@ import React from "react"
 import codePenLogo from "./assets/images/CodePen_logo.png"
 import FCCLogo from "./assets/images/FreeCodeCamp_logo.png"
 import replitLogo from "./assets/images/replit-logo.png"
+import emailIcon from "./assets/images/email-icon.png"
 
 export default function() {
     return (
         
         <div className="contact-page">
             <div>
-            <h2><img className="contact-icon" src="src\assets\images\email-icon.png" /> andrewtburke@gmail.com</h2>
+                <h2 className="email-address">
+                    <img className="contact-icon" src={emailIcon} />
+                    <div> andrewtburke@gmail.com</div>
+                </h2>
             </div>
             <div><h2>{`See more =>`}</h2></div>
-            <div>
+            <div className="see-more">
             <a href="https://codepen.io/andytburke"
             target="_blank">
                 <img className="see-more-icon" src={codePenLogo} />

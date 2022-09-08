@@ -5,12 +5,13 @@ import pythonLogo from "./assets/images/PythonLogo.png"
 import reactLogo from "./assets/images/Reactlogo.png"
 import gitHubLogo from "./assets/images/GitHubLogo.png"
 import linkedInLogo from "./assets/images/LinkedInLogo.png"
+import resumeIcon from "./assets/images/ResumeLogo.png"
 
 export default function About() {
     return (
         <div className="about-page">
         <div className="about-title">
-            <h2>Hi! My name is <span className="my-name">Andrew Burke</span></h2>
+            <h2><span className="hello-statement">Hi! My name is </span><span className="my-name">Andrew Burke</span></h2>
             <div className="intro-text">and I like to make web apps with React.</div>
         </div>
         <div className="about-my-skills">{`My skills =>`}</div>
@@ -28,7 +29,7 @@ export default function About() {
             <a href="https://www.linkedin.com/in/andrew-burke-287852247" target="_blank">
                 <img className="info-logos" title="LinkedIn" src={linkedInLogo} />
             </a>
-            <img className="info-logos" title="Résumé" src="src\assets\images\ResumeLogo.png" />
+            <img className="info-logos" title="Résumé" src={resumeIcon} />
         </div>
         </div>
     )

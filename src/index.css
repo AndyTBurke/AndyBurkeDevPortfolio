@@ -56,13 +56,21 @@ body {
     overflow: hidden;
 }
 
+.about-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .about-title {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 .about-title > h2 {
-    margin: 70px 0 0 0;
+    margin: 3vh 5vw 0 5vw;
     color: rgb(14, 11, 70);
 }
 
@@ -70,6 +78,10 @@ body {
     color: #ff9933;
     text-shadow: 2px 2px #06536b;
     font-size: 35px;
+}
+
+.intro-text {
+    text-align: center;
 }
 
 .about-my-skills {
@@ -82,13 +94,17 @@ body {
 
 .about-skills {
     display: flex;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-evenly;
     margin: 1% 0 0 0;
+    width: 50vw;
+    max-width: 500px;
+    flex-wrap: wrap;
 }
 
 .logos, .info-logos {
     height: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .info-logos:hover {
@@ -135,6 +151,12 @@ body {
     height: 40px;
     vertical-align:text-bottom;
     margin-right: 10px;
+}
+
+.email-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .see-more-icon {
@@ -202,6 +224,19 @@ body {
     background-color: #ffcc99;
 }
 
+@media only screen and (max-width: 930px) {
+    .projects-container {
+        flex-direction: row;
+        height: 100%;
+    }
+
+    .project {
+        width: 80vw;
+        margin: 0;
+        min-width: 0;
+    }
+}
+
 @media only screen and (max-width: 700px) {
 
     .header > button {
@@ -233,17 +268,45 @@ body {
         margin-top: 9px;
     }
 
-}
-
-@media only screen and (max-width: 930px) {
-    .projects-container {
-        flex-direction: row;
-        height: 100%;
+    .footer {
+        position: absolute;
+        margin-top: -4vh;
+        height: 8vh;
+        z-index: 1;
+        width: 100%;
     }
 
-    .project {
-        width: 80vw;
-        margin: 0;
-        min-width: 0;
-    }
 }
+
+@media only screen and (max-width: 465px) {
+    .about-title > h2 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .see-more {
+        font-display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-icon {
+        height: 30px;
+    }
+
+    .email-address {
+        font-size: 2.8vh;
+    }
+
+}
+
+@media only screen and (max-width: 300px) {
+    .logos {
+        height: 40px;
+    }
+
+}
+
+
