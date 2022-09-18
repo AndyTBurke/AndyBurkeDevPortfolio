@@ -6,6 +6,7 @@ import reactLogo from "./assets/images/Reactlogo.png"
 import gitHubLogo from "./assets/images/GitHubLogo.png"
 import linkedInLogo from "./assets/images/LinkedInLogo.png"
 import resumeIcon from "./assets/images/ResumeLogo.png"
+import resumePDF from "./assets/images/andrew-burke-resume.pdf"
 
 export default function About() {
     return (
@@ -29,7 +30,7 @@ export default function About() {
             <a href="https://www.linkedin.com/in/andrew-burke-mke" target="_blank">
                 <img className="info-logos" title="LinkedIn" src={linkedInLogo} />
             </a>
-            <a href=".\src\assets\images\andrew-burke-resume.pdf" target="_blank">
+            <a href={resumePDF} target="_blank">
             <img className="info-logos" title="Résumé" src={resumeIcon} />
             </a>
         </div>
