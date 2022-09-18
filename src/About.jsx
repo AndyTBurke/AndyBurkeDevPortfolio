@@ -26,10 +26,12 @@ export default function About() {
             <a href="https://github.com/AndyTBurke" target="_blank">
                 <img className="info-logos" title="GitHub" src={gitHubLogo} />
             </a>
-            <a href="https://www.linkedin.com/in/andrew-burke-287852247" target="_blank">
+            <a href="https://www.linkedin.com/in/andrew-burke-mke" target="_blank">
                 <img className="info-logos" title="LinkedIn" src={linkedInLogo} />
             </a>
+            <a href=".\src\assets\images\andrew-burke-resume.pdf" target="_blank">
             <img className="info-logos" title="Résumé" src={resumeIcon} />
+            </a>
         </div>
         </div>
     )
